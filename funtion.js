@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     item.classList.remove('active');
                 }
             });
-            
+
             accordionItem.classList.toggle('active');
         });
     });
