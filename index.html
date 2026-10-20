@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abrigos Hidalgo - Moda, abrigos y belleza</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome para íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- 1. Encabezado (Header) -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo-container">
+                <!-- LOGO LOCAL -->
+                <img src="logo.jpeg" alt="Abrigos Hidalgo Logo" class="logo-img">
+            </a>
+            
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Abrir menú">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                    <li><a href="#productos" class="nav-link">Productos</a></li>
+                    <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+                    <li><a href="#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- 2. Sección Principal (Hero Section) -->
+        <section id="inicio" class="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <h1>Abrigos Hidalgo</h1>
+                    <p class="hero-subtitle">Moda, abrigos y belleza en un solo lugar</p>
+                    <!-- REFRÁN / ESLOGAN DE ABRIGOS HIDALGO -->
+                    <p class="hero-slogan"><em>"Elegancia a tu medida, calidez que te acompaña."</em></p>
+                    <p class="hero-description">
+                        Ropa, abrigos y maquillaje para todo tipo de público, con la mejor calidad y a precios accesibles.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="https://wa.me/7731997556?text=Hola,%20quisiera%20hacer%20un%20pedido" target="_blank" class="btn btn-primary">
+                            <i class="fab fa-whatsapp"></i> ¡Haz tu pedido por WhatsApp!
+                        </a>
+                        <a href="#productos" class="btn btn-secondary">Ver productos</a>
+                        <a href="#nosotros" class="btn btn-outline">Conoce nuestra tienda</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <!-- IMAGEN PRINCIPAL (HERO) -->
+                    <img src="Abriguito.jpeg" alt="Colección Abrigos Hidalgo" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Propuesta de Valor / ¿Por qué elegirnos? -->
+        <section id="nosotros" class="features">
+            <div class="container">
+                <h2 class="section-title">¿Por qué elegirnos?</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <i class="fas fa-truck feature-icon"></i>
+                        <h3>Envíos a domicilio</h3>
+                        <p>Llevamos tus prendas y productos favoritos hasta la puerta de tu hogar de forma rápida y segura.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-tags feature-icon"></i>
+                        <h3>Productos de calidad</h3>
+                        <p>Precios accesibles con la mejor calidad del mercado garantizada en cada prenda.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-heart feature-icon"></i>
+                        <h3>Atención personalizada</h3>
+                        <p>Te brindamos asesoría amable e individualizada para ayudarte a encontrar exactamente lo que buscas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Productos o Servicios -->
+        <section id="productos" class="products">
+            <div class="container">
+                <h2 class="section-title">Nuestros productos</h2>
+                <div class="products-grid">
+                    <!-- Producto 1: Abrigos -->
+                    <article class="product-card">
+                        <!-- IMAGEN ABRIGOS -->
+                        <img src="Abrigo.jpeg" alt="Sección de Abrigos" loading="lazy">
+                        <div class="product-info">
+                            <h3>Abrigos</h3>
+                            <p>Abrigos y sacos de excelente calidad, diseñados para mantenerte abrigado con mucho estilo.</p>
+                            <span class="price">Precios: $800 - $1,500 - $2,000 MXN</span>
+                            <a href="https://wa.me/7731997556?text=Hola,%20me%20interesan%20los%20abrigos" target="_blank" class="btn btn-card">Ver catálogo</a>
+                        </div>
+                    </article>
+
+                    <!-- Producto 2: Ropa -->
+                    <article class="product-card">
+                        <!-- IMAGEN ROPA -->
+                        <img src="Ropa.jpeg" alt="Sección de Ropa" loading="lazy">
+                        <div class="product-info">
+                            <h3>Ropa</h3>
+                            <p>Variedad de prendas de moda cómodas y versátiles para todo tipo de público y ocasión.</p>
+                            <span class="price">Precios: $200 - $450 MXN</span>
+                            <a href="https://wa.me/7731997556?text=Hola,%20me%20interesa%20la%20ropa" target="_blank" class="btn btn-card">Ver catálogo</a>
+                        </div>
+                    </article>
+
+                    <!-- Producto 3: Maquillaje -->
+                    <article class="product-card">
+                        <!-- IMAGEN MAQUILLAJE -->
+                        <img src="Maquillaje.jpeg" alt="Sección de Maquillaje" loading="lazy">
+                        <div class="product-info">
+                            <h3>Maquillaje</h3>
+                            <p>Cosméticos y artículos de belleza ideales para complementar tu look diario con elegancia.</p>
+                            <span class="price">Precios: $80 - $200 MXN</span>
+                            <a href="https://wa.me/7731997556?text=Hola,%20me%20interesa%20el%20maquillaje" target="_blank" class="btn btn-card">Ver catálogo</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Confianza / Preguntas Frecuentes -->
+        <section class="faq">
+            <div class="container">
+                <h2 class="section-title">Preguntas Frecuentes</h2>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            ¿Cómo puedo realizar mi pedido? <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="accordion-content">
+                            <p>Puedes realizar tu pedido directamente presionando cualquiera de los botones de WhatsApp en nuestro sitio o visitando nuestra tienda física.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            ¿Realizan envíos a domicilio? <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="accordion-content">
+                            <p>¡Sí! Contamos con servicio de envíos a domicilio. Contáctanos por WhatsApp indicando tu dirección para cotizar la entrega.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            ¿Cuentan con tienda física? <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="accordion-content">
+                            <p>Sí, contamos con establecimiento físico donde puedes ver, probarte la ropa y adquirir todos nuestros productos directamente.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. Mecanismo de Contacto Directo -->
+        <section id="contacto" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contacto Directo</h2>
+                <p class="contact-intro">Escríbenos por WhatsApp o visítanos directamente para procesar tus consultas e inquietudes en tiempo real.</p>
+                <div class="contact-box">
+                    <div class="contact-method">
+                        <i class="fab fa-whatsapp contact-icon"></i>
+                        <h3>Atención por WhatsApp</h3>
+                        <p>Respuesta inmediata a pedidos y cotizaciones.</p>
+                        <a href="https://wa.me/7731997556?text=Hola,%20deseo%20más%20información" target="_blank" class="btn btn-primary">Iniciar Chat</a>
+                    </div>
+                    <div class="contact-method">
+                        <i class="fas fa-store contact-icon"></i>
+                        <h3>Tienda Física</h3>
+                        <p>Nantzha, Hidalgo, México.</p>
+                        <p><strong>Horarios:</strong> Lunes a Sábado de 10:00 am a 7:00 pm</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 7. Pie de Página (Footer) -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-info">
+                <h3>Abrigos Hidalgo</h3>
+                <p><em>Elegancia a tu medida, calidez que te acompaña.</em></p>
+                <p>Contactos: WhatsApp | Tienda Física | Envíos a domicilio</p>
+            </div>
+            <div class="footer-social">
+                <span>Síguenos:</span>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/share/1JAZdzW3mQ/?mibextid=wwXIfr" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/abrigos_hidalgo?cplk=MXdqbnc0d3YybW5xdQ%3D%3D&utm_source=qr" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/7731997556" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Abrigos Hidalgo. Todos los derechos reservados. | <a href="#">Aviso de Privacidad</a></p>
+        </div>
+    </footer>
+
+    <script src="funtion.js"></script>
+</body>
+</html>
