@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #7A1C30; 
+    --primary-color: #7A1C30;
     --primary-hover: #5A1323;
-    --accent-color: #25D366;  
+    --accent-color: #25D366;
     --accent-hover: #1EBE5D;
     --text-color: #333333;
     --bg-light: #F9F9F9;
@@ -110,6 +110,13 @@ body {
 .hero-subtitle {
     font-size: 1.3rem;
     font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.hero-slogan {
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    font-weight: 600;
     margin-bottom: 15px;
 }
 
@@ -139,7 +146,7 @@ body {
 .hero-image img {
     width: 100%;
     max-height: 400px;
-    object-fit: contain; 
+    object-fit: contain;
     border-radius: 8px;
 }
 
@@ -261,7 +268,7 @@ body {
 
 .product-info .price {
     font-weight: bold;
-    color: #15429d;
+    color:#15429d;
     margin: 15px 0;
     font-size: 1.1rem;
 }
@@ -338,7 +345,7 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 30px;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 0 auto 40px auto;
 }
 
 .contact-method {
@@ -354,6 +361,24 @@ body {
     margin-bottom: 15px;
 }
 
+.map-section {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.map-section h3 {
+    color: var(--primary-color);
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+.map-wrapper {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+    border: 2px solid var(--border-color);
+}
+
 .footer {
     background-color: #222222;
     color: #FFFFFF;
@@ -367,6 +392,11 @@ body {
     flex-wrap: wrap;
     gap: 20px;
     padding-bottom: 30px;
+}
+
+.footer-info p {
+    margin-top: 5px;
+    color: #DDDDDD;
 }
 
 .social-icons {
